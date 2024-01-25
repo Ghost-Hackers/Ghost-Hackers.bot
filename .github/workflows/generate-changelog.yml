@@ -1,0 +1,71 @@
+name: Changelog
+  
+on:
+  push:
+    branches:
+      - master  # Adjust this to your main branch
+
+  pull_request:
+    types: [closed, reopened, synchronize, ready_for_review, opened, edited, review_requested, review_request_removed, ready_for_review, converted_to_draft, locked, unlocked]
+
+  release:
+    types: [published, edited, deleted, prereleased, released, created]
+
+  issues:
+    types: [closed, reopened, opened, edited, deleted]
+
+jobs:
+  generate-changelog:
+    runs-on: ubuntu-latest
+    name: Generate changelog for master branch
+    steps:
+      - name: "📥 Check-out"
+        uses: actions/checkout@v4.1.1
+
+      - name: "✏️ Generate full changelog"
+        id: generate-full-changelog
+        uses: heinrichreimer/action-github-changelog-generator@v2.4
+        with:
+          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
+          headerLabel: "> # 📑 Changelog"
+          unreleasedLabel: '### 🚧 Unreleased'
+          breakingLabel: '### 💥 Breaking'
+          enhancementLabel: '### 🚀 Enhancements'
+          bugsLabel: '### 🐛 Bug fixes'
+          deprecatedLabel: '### ⚠️ Deprecations'
+          removedLabel: '### 🔥 Removals'
+          securityLabel: '### 🛡️ Security'
+          issuesLabel: '### 📁 Other issues'
+          prLabel: '### 📁 Other pull requests'
+          addSections: '{"documentation":{"prefix":"### 📖 Documentation","labels":["documentation"]},"tests":{"prefix":"### ✅ Testing","labels":["tests"]}}'        
+          sinceTag: v0.1.0
+          issues: true
+          issuesWoLabels: true
+          issueLineLabels: ALL
+          pullRequests: true
+          prWoLabels: true
+          author: true
+          unreleased: true
+          compareLink: true
+          stripGeneratorNotice: true
+          verbose: true
+          base: CHANGELOG.md
+          releaseUrl: https://github.com/Ghost-Hackers/Ghost-Hackers.bot/releases
+          githubSite: https://github.com/Ghost-Hackers/Ghost-Hackers.bot
+
+      - name: Commit files
+        env:
+          CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
+          CI_EMAIL: ${{ secrets.YOUR_GITHUB_EMAIL }}
+        run: |
+          git config --local user.email "$CI_EMAIL"
+          git config --local user.name "$CI_USER"
+          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo "push=true" >> $GITHUB_ENV || echo "No changes to CHANGELOG.md"
+
+      - name: Push changes
+        if: env.push == 'true'
+        env:
+          CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
+          CI_TOKEN: ${{ secrets.YOUR_GITHUB_TOKEN }}
+        run: |
+          git push "https://$CI_USER:$CI_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD:master

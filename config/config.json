@@ -1,0 +1,23 @@
+{
+  "token": "MTE5ODg1MTYyMzI5Mjc3NjQ5OQ.G9AezN.PZHlQHPgnpZAUH5_NGp_lqpdFwAEaXz1t_1ZUE",
+  "prefix": "*",
+  "activities": [
+      {"name": "Coding Spectrally", "details": "Crafting Digital Spells", "state": "Innovation Realm"},
+      {"name": "Exploring New Languages", "details": "Summoning Automated Scripts", "state": "Enchanted Workspace"},
+      {"name": "Debugging Enchantments", "details": "Mastering Git Magic", "state": "Spellbound Repositories"},
+      {"name": "Collaborating with Wizards", "details": "Brewing Potion Scripts", "state": "Magical Coding Nexus"}
+  ],
+  "achievements": [
+      "Implemented a spectral sorting algorithm.",
+      "Enchanted codebase with automation spells.",
+      "Conjured an elegant user interface for a magical app."
+  ],
+  "inspiration_quotes": [
+      "Code is like humor. When you have to explain it, it’s bad.",
+      "The best error message is the one that never shows up.",
+      "Coding is not just code, that is a live thing to serve everyone!"
+  ],
+  "github_profile": "https://github.com/Ghost-Hackers",
+  "countdown_notification_channel_id": 1102907872809062520,
+  "slash_commands": true
+}

@@ -1,0 +1,28 @@
+# CODEOWNERS File
+<!--
+    This file defines ownership and review assignments for different parts of the repository.
+-->
+
+## General Ownership
+<!--
+    Owners specified here will be requested for review on pull requests affecting any file in the repository.
+-->
+* @Ghostridr
+
+## Specific Ownership
+<!-- 
+    You can assign ownership for specific files or directories by adding entries below.
+    Each line consists of a file pattern followed by one or more owners.
+
+    Example:
+    /path/to/specific/file.txt    @SpecificOwner
+    /path/to/specific/directory/  @DirectoryOwner
+-->
+
+## Reserved for Future Assignments
+<!--
+    If additional CODEOWNERS are designated for specific files or directories in the future, add them below.
+    This allows for a dynamic and scalable ownership structure.
+
+    Note: Make sure to provide clear and concise patterns to avoid ambiguity in ownership assignment.
+-->
