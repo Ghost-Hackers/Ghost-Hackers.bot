@@ -1,16 +1,44 @@
-# 👻 Ghost Hackers Bot: An Ethereal Symphony of Innovation
+> # <p align="center">👻 Codergeist Phantom: An Ethereal Symphony of Innovation</p>
 
-Salutations and a warm welcome to Ghost Hackers Bot, an exquisite creation destined to orchestrate an enchanting Discord experience within the ethereal confines of your organization's server. As we embark on this transcendent journey, prepare to delve into the realms of sophistication, creativity, and automation, where each line of code resonates as a note in a symphony of innovation.
+<a href="https://github.com/Ghost-Hackers/Ghost-Hackers.bot"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Ghost-Hackers/Ghost-Hackers.bot?label=Repo%20Stars" /></a> <a href="https://github.com/Ghost-Hackers"><img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/Ghost-Hackers?style=social&label=Org%20Stars" /></a> <img alt="GitHub collaborators" src="https://img.shields.io/github/contributors/Ghost-Hackers/Ghost-Hackers.bot?style=social" /> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Ghost-Hackers/Ghost-Hackers.bot?style=social" /> <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Ghost-Hackers/Ghost-Hackers.bot/total?style=social" />
 
-## 🌐 Overview: Crafting a Tapestry of Distinction
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img alt="Skill Icons" src="https://skillicons.dev/icons?i=github,git,discord,bots,py,md" />
+  </a>
+</p>
 
-In the vast digital landscape, Ghost Hackers Bot emerges as a singular creation, meticulously designed to seamlessly integrate with your Discord server. Elevate your experience beyond the mundane, as this bot weaves a tapestry of distinction that resonates with sophistication and ingenuity.
+<!--    !! REMEMBER TO UDPATE BADGES !!    -->
 
-## 🚀 Features: Unveiling the Grandeur
+<p align="center">
+    <img alt="README Badge" src="https://img.shields.io/badge/README updated on-1/24/2024-gold?style=plastic" />
+    <img alt="Last Updated Badge" src="https://img.shields.io/badge/last updated by-GH👻ST-white?style=plastic" />
+    </br>
+    <object data="https://img.shields.io/github/v/release/Ghost-Hackers/Ghost-Hackers.bot?include_prereleases&sort=date&display_name=tag&style=plastic&label=latest%20release&color=bright%20green" type="image/svg+xml">
+        <img alt="GitHub Release" src="https://img.shields.io/github/v/release/Ghost-Hackers/Ghost-Hackers.bot?include_prereleases&sort=date&display_name=tag&style=plastic&label=latest%20release&color=bright%20green" />
+    </object>
+    <object data="https://img.shields.io/github/release-date/Ghost-Hackers/Ghost-Hackers.bot?display_date=published_at&style=plastic&color=blue&link=right%3Ahttps%3A%2F%2Fgithub.com%2FGhost-Hackers%2FGhost-Hackers.bot%2Freleases" type="image/svg+xml">
+        <img alt="GitHub Release Date - Published_At" src="https://img.shields.io/github/release-date/Ghost-Hackers/Ghost-Hackers.bot?display_date=published_at&style=plastic&color=blue&link=right%3Ahttps%3A%2F%2Fgithub.com%2FGhost-Hackers%2FGhost-Hackers.bot%2Freleases" />
+    </object>
+    </br>
+</p>
+
+---
+
+[![Greetings](https://github.com/Ghost-Hackers/Ghost-Hackers.bot/actions/workflows/greetings.yml/badge.svg)](https://github.com/Ghost-Hackers/Ghost-Hackers.bot/actions/workflows/greetings.yml)
+[![Generate Changelog](https://github.com/Ghost-Hackers/Ghost-Hackers.bot/actions/workflows/generate-changelog.yml/badge.svg)](https://github.com/Ghost-Hackers/Ghost-Hackers.bot/actions/workflows/generate-changelog.yml)
+
+Salutations and a warm welcome to Codergeist Phantom, an exquisite creation destined to orchestrate an enchanting Discord experience within the ethereal confines of your organization's server. As we embark on this transcendent journey, prepare to delve into the realms of sophistication, creativity, and automation, where each line of code resonates as a note in a symphony of innovation.
+
+> ## 🌐 Overview: Crafting a Tapestry of Distinction
+
+In the vast digital landscape, Codergeist Phantom emerges as a singular creation, meticulously designed to seamlessly integrate with your Discord server. Elevate your experience beyond the mundane, as this bot weaves a tapestry of distinction that resonates with sophistication and ingenuity.
+
+> ## 🚀 Features: Unveiling the Grandeur
 
 ### 🌈 Dynamic Rich Presence: A Harmonious Atmosphere
 
-Immerse yourself in a dynamic atmosphere with automatic updates every 15 minutes, ensuring a seamless transition between coding realms. The presence of Ghost Hackers Bot is a harmonious dance, orchestrated to perfection.
+Immerse yourself in a dynamic atmosphere with automatic updates every 15 minutes, ensuring a seamless transition between coding realms. The presence of Codergeist Phantom is a harmonious dance, orchestrated to perfection.
 
 - **Usage:**
   - Presence updates automatically.
@@ -54,7 +82,7 @@ Connect organization members with their GitHub profiles for seamless collaborati
 
 ### 📚 Dynamic Help Command: Navigating the Ethereal Realms
 
-Effortlessly navigate through the exclusive features tailored for your organization with a dynamically generated help command. This feature is a guide, navigating you through the ethereal realms of Ghost Hackers Bot.
+Effortlessly navigate through the exclusive features tailored for your organization with a dynamically generated help command. This feature is a guide, navigating you through the ethereal realms of Codergeist Phantom.
 
 - **Usage:**
   - Access the help command with `!help_me` for information about available commands.
@@ -69,7 +97,7 @@ Immerse your Discord server in an extended rich presence, showcasing not just th
 
 ### 🌐 Custom Commands: Tailored to Your Needs
 
-Craft custom commands tailored to the specific needs of your organization. Whether it's automating repetitive tasks or creating personalized interactions, Ghost Hackers Bot adapts to your command.
+Craft custom commands tailored to the specific needs of your organization. Whether it's automating repetitive tasks or creating personalized interactions, Codergeist Phantom adapts to your command.
 
 - **Usage:**
   - Define custom commands with `!custom_command create`.
@@ -77,13 +105,13 @@ Craft custom commands tailored to the specific needs of your organization. Wheth
 
 ### 🎲 Fun and Games: Unleash the Playful Spirits
 
-Inject a dose of fun into your server with entertaining games and activities. From trivia challenges to virtual dice rolls, Ghost Hackers Bot brings the joy of playfulness to your coding haven.
+Inject a dose of fun into your server with entertaining games and activities. From trivia challenges to virtual dice rolls, Codergeist Phantom brings the joy of playfulness to your coding haven.
 
 - **Usage:**
   - Engage in trivia with `!trivia start`.
   - Roll virtual dice with `!roll_dice`.
 
-## 🛠️ Getting Started: Unveiling the Enchantment
+> ## 🛠️ Getting Started: Unveiling the Enchantment
 
 Embarking on this enchanting journey requires a meticulous initiation:
 
@@ -106,19 +134,35 @@ Embarking on this enchanting journey requires a meticulous initiation:
 
 Replace `"YOUR_BOT_TOKEN"` with the actual bot token and update the GitHub profile link in the "Author" section accordingly. This version accentuates the exclusivity and tailored nature of the bot for your esteemed organization.
 
-## 📚 Ethereal Codices: A Library of Knowledge
+5. Run the bot with:
 
-The ethereal codices are a library of knowledge, a collection of resources to guide you through the enchanting journey of Ghost Hackers Bot. The codices are a testament to the meticulous craftsmanship of this creation, a beacon of inspiration for your own creations. The codices cover [styling](docs\guides\ethereal-style-codex.md) and [documentation](docs\guides\ethereal-documentation-codex.md), ensuring that your creations are as enchanting as Ghost Hackers Bot
+    ```bash
+    run_DiscordBot.bat
+    ```
 
-## 🤝 Contributing: Join the Symphony of Innovation
+6. Invite the bot to your server with the following link:
+
+    ```text
+    https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot
+    ```
+
+Replace `"YOUR_CLIENT_ID"` with the actual client ID of your Discord bot.
+
+7. Enjoy the enchanting experience of Codergeist Phantom.
+
+> ## 📚 Ethereal Codices: A Library of Knowledge
+
+The ethereal codices are a library of knowledge, a collection of resources to guide you through the enchanting journey of Codergeist Phantom. The codices are a testament to the meticulous craftsmanship of this creation, a beacon of inspiration for your own creations. The codices cover [styling](docs\guides\ethereal-style-codex.md) and [documentation](docs\guides\ethereal-documentation-codex.md), ensuring that your creations are as enchanting as Codergeist Phantom
+
+> ## 🤝 Contributing: Join the Symphony of Innovation
 
 Contributions are not merely welcomed but invited to join the symphony of innovation. Please refer to the [Contributing Guide](CONTRIBUTING.md) for an invitation to contribute to this grand composition. All contributions are welcome, whether it's a bug report, feature request, or a pull request.
 
-## 📝 Code of Conduct: A Harmonious Discord
+> ## 📝 Code of Conduct: A Harmonious Discord
 
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [Ghost Hackers](mailto:ghost-hackers@outlook.com).
 
-## 📜 License: Safeguarding the Ethereal Creation
+> ## 📜 License: Safeguarding the Ethereal Creation
 
 All Rights Reserved
 
