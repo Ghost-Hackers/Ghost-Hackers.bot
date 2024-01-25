@@ -115,44 +115,89 @@ Inject a dose of fun into your server with entertaining games and activities. Fr
 
 Embarking on this enchanting journey requires a meticulous initiation:
 
-1. Clone the repository.
-2. Install the required dependencies with:
+1. **Clone the Repository**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   git clone https://github.com/Ghost-Hackers/Ghost-Hackers.bot.git
+   ```
 
-3. Obtain a Discord bot token by creating a new application and bot in the [Discord Developer Portal](https://discord.com/developers/applications).
+2. **Install Dependencies**
 
-4. Craft a `config.json` file, imbuing it with your Discord bot token.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-    ```json
-    {
-        "token": "YOUR_BOT_TOKEN"
-    }
-    ```
+3. **Discord Bot Token**
 
-Replace `"YOUR_BOT_TOKEN"` with the actual bot token and update the GitHub profile link in the "Author" section accordingly. This version accentuates the exclusivity and tailored nature of the bot for your esteemed organization.
+   Obtain a Discord bot token by creating a new application and bot in the [Discord Developer Portal](https://discord.com/developers/applications).
 
-5. Run the bot with:
+4. **Craft `config.json`**
 
-    ```bash
-    run_DiscordBot.bat
-    ```
+   Craft a `config.json` file, imbuing it with your Discord bot token.
 
-6. Invite the bot to your server with the following link:
+   ```json
+   {
+       "token": "YOUR_BOT_TOKEN"
+   }
+   ```
 
-    ```text
-    https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot
-    ```
+   Replace `"YOUR_BOT_TOKEN"` with the actual bot token.
 
-Replace `"YOUR_CLIENT_ID"` with the actual client ID of your Discord bot.
+5. **Run the Bot**
 
-7. Enjoy the enchanting experience of Codergeist Phantom.
+   Conjure the bot with the following command:
+
+   ```bash
+   run_DiscordBot.bat
+   ```
+
+6. **Invite the Bot**
+
+   Invite the bot to your server with the following link:
+
+   ```text
+   https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot
+   ```
+
+   Replace `"YOUR_CLIENT_ID"` with the actual client ID of your Discord bot.
+
+---
+
+> ## 🛠️ Getting Started: Setting Up Embedded Python
+
+To ensure a consistent Python environment for the project, we include an embedded Python distribution. Follow the steps below to set up the [embedded Python](python_embed\python-3.12.1-amd64.zip) on your machine:
+
+### Step 1: **Download and Install Embedded Python**
+
+1. **Open the Downloads Folder:** Locate your Downloads folder on your machine.
+2. **Move and Extract Python Installer:**
+    - Move `python-3.12.1-amd64.zip` to the Downloads folder.
+    - Extract the contents of the zip file into the Downloads folder.
+    - Run the installer to automatically set up Python, or choose the custom install option.
+
+### Step 2: **Verify Installation**
+
+Open a new command prompt or terminal window and run the following commands to verify the installation:
+
+```bash
+python --version
+```
+
+You should see the Python version matching the embedded distribution.
+
+### Step 3: **Run Your Project**
+
+Now that the embedded Python is set up, you're ready to run your project. Use the following command to execute your main script:
+
+```bash
+python path_to_repository\Ghost-Hackers.bot\main.py
+```
+
+   Replace `path_to_repository` with the actual path to the repository on your machine.
 
 > ## 📚 Ethereal Codices: A Library of Knowledge
 
-The ethereal codices are a library of knowledge, a collection of resources to guide you through the enchanting journey of Codergeist Phantom. The codices are a testament to the meticulous craftsmanship of this creation, a beacon of inspiration for your own creations. The codices cover [styling](docs\guides\ethereal-style-codex.md) and [documentation](docs\guides\ethereal-documentation-codex.md), ensuring that your creations are as enchanting as Codergeist Phantom
+The ethereal codices are a library of knowledge, a collection of resources to guide you through the enchanting journey of Codergeist Phantom. The codices are a testament to the meticulous craftsmanship of this creation, a beacon of inspiration for your own creations. The codices cover [styling](docs\guides\ethereal-style-codex.md) and [documentation](docs\guides\ethereal-documentation-codex.md), ensuring that your creations are as enchanting as our Codergeist Phantom.
 
 > ## 🤝 Contributing: Join the Symphony of Innovation
 
