@@ -111,6 +111,8 @@ Inject a dose of fun into your server with entertaining games and activities. Fr
   - Engage in trivia with `!trivia start`.
   - Roll virtual dice with `!roll_dice`.
 
+---
+
 > ## 🛠️ Getting Started: Unveiling the Enchantment
 
 Embarking on this enchanting journey requires a meticulous initiation:
@@ -161,8 +163,6 @@ Embarking on this enchanting journey requires a meticulous initiation:
 
    Replace `"YOUR_CLIENT_ID"` with the actual client ID of your Discord bot.
 
----
-
 > ## 🛠️ Getting Started: Setting Up Embedded Python
 
 To ensure a consistent Python environment for the project, we include an embedded Python distribution. Follow the steps below to set up the [embedded Python](python_embed\python-3.12.1-amd64.zip) on your machine:
@@ -194,6 +194,8 @@ python path_to_repository\Ghost-Hackers.bot\main.py
 ```
 
    Replace `path_to_repository` with the actual path to the repository on your machine.
+
+---
 
 > ## 📚 Ethereal Codices: A Library of Knowledge
 
