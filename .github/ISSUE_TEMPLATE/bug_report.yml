@@ -1,0 +1,110 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - Ghostridr
+  - Triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: "ex. Email: [User_Name](mailto:email@example.com)"
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Please be as descriptive as possible. The more information you provide, the easier it will be for us to fix the bug in a timely manner.
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What bot version are you running?
+      options:
+        - 0.1.0 (Initial Pre-Release)
+        - 0.2.0 (Latest Pre-Release)
+      default: 0
+    validations:
+      required: true
+      multiple: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this bug?
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+      default: 0
+    validations:
+      required: true
+      multiple: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+      placeholder: |
+        [2021-03-31 12:00:00] [INFO] [bot.py:123] Bot is starting...
+        [2021-03-31 12:00:01] [INFO] [bot.py:123] Bot has started!
+        :warning: **Do not** include any sensitive information.
+    validations: 
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Please list the steps to reproduce the bug.
+      placeholder: |
+        1. Do this
+        2. Do that
+        3. Do the other thing
+        4. See the bug happen at this point
+        5. etc.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      placeholder: "Example: macOS Big Sur v11.2.3"
+      value: operating system
+    validations:
+      required: true
+  - type: screenshot
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Please attach a screenshot of the bug. This will help us understand the issue better.
+      placeholder: "Drag and drop a file or paste a screenshot. Accepted file types: .png, .jpg, .jpeg, .gif, .bmp, .tiff, .tif, .webp"
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct and Contributing Guidelines
+      description: The Code of Conduct helps create a safe space for everyone. We require
+        that everyone agrees to it. The Contributing Guidelines help us work together.
+      options:
+        - label: I agree to follow this project's [Code of Conduct](CODE_OF_CONDUCT.md)
+        - label: I agree to follow this project's [Contributing Guidelines](CONTRIBUTING.md)
+          required: true
+  - type: markdown
+    attributes:
+      value: "Thanks for completing our form!"
+

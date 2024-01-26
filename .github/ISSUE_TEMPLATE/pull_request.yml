@@ -1,0 +1,139 @@
+name: Pull Request
+description: Create a pull request
+title: "[PR]: "
+labels:
+  options:
+    - "bug"
+    - "documentation"
+    - "enhancement"
+    - "feature"
+  default: "bug"
+assignees:
+  - Ghostridr
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for creating a pull request! Please fill out the details below.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: "ex. Email: [User_Name](mailto:email@example.com)"
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the changes you made in this pull request. Please be as descriptive as possible.
+      placeholder: Please provide a clear and concise description of the changes.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What bot version is this for?
+      options:
+        - 0.1.0 (Initial Pre-Release)
+        - 0.2.0 (Latest Pre-Release)
+      default: 0
+    validations:
+      required: true
+      multiple: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this pull_request?
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+      default: 0
+    validations:
+      required: true
+      multiple: false
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Change
+      description: What type of change does this pull request introduce?
+      options:
+        - Bug Fix
+        - Breaking Change
+        - Documentation Update
+        - Enhancement (to existing code/feature)
+        - Feature Addition
+        - Refactor
+        - Style Update
+        - Test (when adding missing tests)
+      default: 0
+    validations:
+      required: true
+      multiple: true
+  - type: textarea
+    id: breaking-changes
+    attributes:
+      label: Breaking Changes
+      description: If applicable, describe any breaking changes.
+      placeholder: Please provide a clear and concise description of the changes. (fix or feature that would cause existing functionality to not work as expected)
+    validations:
+      required: false
+  - type: textarea
+    id: performance-impact
+    attributes:
+      label: Performance Impact
+      description: If applicable, describe any performance impact.
+      placeholder: Please provide a clear and concise description of the impact on performance.
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Provide any additional information or context regarding your pull request.
+      placeholder: Any information that might be helpful for the reviewers.
+    validations:
+      required: false
+  - type: textarea
+    id: deployment-instructions
+    attributes:
+      label: Deployment Instructions
+      description: If applicable, provide any deployment instructions.
+      placeholder: Please provide a clear and concise description of the deployment instructions.
+  - type: screenshot
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: If applicable, please provide a screenshot of your changes.
+      placeholder: "Drag and drop a file or paste a screenshot. Accepted file types: .png, .jpg, .jpeg, .gif, .bmp, .tiff, .tif, .webp"
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please check the following items before submitting your pull request.
+      options:
+        - label: I have tested my changes thoroughly.
+        - label: My code follows the project's [coding style](docs\guides\ethereal-style-codex.md).
+        - label: I have updated the necessary documentation (if applicable).
+        - label: My changes do not introduce new warnings.
+        - label: I have added tests for my changes.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct and Contributing Guidelines
+      description: The Code of Conduct helps create a safe space for everyone. We require
+        that everyone agrees to it. The Contributing Guidelines help us work together.
+      options:
+        - label: I agree to follow this project's [Code of Conduct](CODE_OF_CONDUCT.md)
+        - label: I agree to follow this project's [Contributing Guidelines](CONTRIBUTING.md)
+          required: true
+  - type: markdown
+    attributes:
+      value: "Thanks for contributing to our project!"
