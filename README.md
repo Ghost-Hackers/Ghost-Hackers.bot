@@ -176,9 +176,9 @@ Embarking on this enchanting journey requires a meticulous initiation:
        load_dotenv()
 
        # Access Discord Bot Credentials
-       discord_bot_token = os.getenv("MTE5ODg1MTYyMzI5Mjc3NjQ5OQ.GgPLFW.qrho8V4RXa9Z1xdgQNnaiqiLxCBXiuk6afFo1Q")
-       discord_client_id = os.getenv("1198851623292776499")
-       discord_client_secret = os.getenv("2ZtFoZ8v9-TedpjbLW_DuwbVB7T1RlG3")
+       discord_bot_token = os.getenv("YOUR_BOT_TOKEN")
+       discord_client_id = os.getenv("YOUR_CLIENT_ID")
+       discord_client_secret = os.getenv("YOUR_CLIENT_SECRET")
    }
    ```
 
