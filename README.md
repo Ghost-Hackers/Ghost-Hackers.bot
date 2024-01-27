@@ -11,7 +11,7 @@
 <!--    !! REMEMBER TO UDPATE BADGES !!    -->
 
 <p align="center">
-    <img alt="README Badge" src="https://img.shields.io/badge/README updated on-1/24/2024-gold?style=plastic" />
+    <img alt="README Badge" src="https://img.shields.io/badge/README updated on-1/25/2024-gold?style=plastic" />
     <img alt="Last Updated Badge" src="https://img.shields.io/badge/last updated by-GH👻ST-white?style=plastic" />
     </br>
     <object data="https://img.shields.io/github/v/release/Ghost-Hackers/Ghost-Hackers.bot?include_prereleases&sort=date&display_name=tag&style=plastic&label=latest%20release&color=bright%20green" type="image/svg+xml">
@@ -29,6 +29,32 @@
 [![Generate Changelog](https://github.com/Ghost-Hackers/Ghost-Hackers.bot/actions/workflows/generate-changelog.yml/badge.svg)](https://github.com/Ghost-Hackers/Ghost-Hackers.bot/actions/workflows/generate-changelog.yml)
 
 Salutations and a warm welcome to Codergeist Phantom, an exquisite creation destined to orchestrate an enchanting Discord experience within the ethereal confines of your organization's server. As we embark on this transcendent journey, prepare to delve into the realms of sophistication, creativity, and automation, where each line of code resonates as a note in a symphony of innovation.
+
+> ## 📑 Table of Contents
+
+- [👻 Codergeist Phantom: An Ethereal Symphony of Innovation](#-codergeist-phantom-an-ethereal-symphony-of-innovation)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [🌐 Overview: Crafting a Tapestry of Distinction](#-overview-crafting-a-tapestry-of-distinction)
+  - [🚀 Features: Unveiling the Grandeur](#-features-unveiling-the-grandeur)
+    - [🌈 Dynamic Rich Presence: A Harmonious Atmosphere](#-dynamic-rich-presence-a-harmonious-atmosphere)
+    - [⏲️ Countdown Timer: Anticipation Elevated](#️-countdown-timer-anticipation-elevated)
+    - [🏆 Coding Achievements Showcase: A Gallery of Triumphs](#-coding-achievements-showcase-a-gallery-of-triumphs)
+    - [✨ Inspirational Coding Quotes: Nourishment for the Soul](#-inspirational-coding-quotes-nourishment-for-the-soul)
+    - [💬 Code Snippet Sharing: Fostering Collaboration](#-code-snippet-sharing-fostering-collaboration)
+    - [🔗 GitHub Profile Link: Connecting Minds](#-github-profile-link-connecting-minds)
+    - [📚 Dynamic Help Command: Navigating the Ethereal Realms](#-dynamic-help-command-navigating-the-ethereal-realms)
+    - [🚀 Extended Rich Presence: A Symphony of Information](#-extended-rich-presence-a-symphony-of-information)
+    - [🌐 Custom Commands: Tailored to Your Needs](#-custom-commands-tailored-to-your-needs)
+    - [🎲 Fun and Games: Unleash the Playful Spirits](#-fun-and-games-unleash-the-playful-spirits)
+  - [🛠️ Getting Started: Unveiling the Enchantment](#️-getting-started-unveiling-the-enchantment)
+  - [🛠️ Getting Started: Setting Up Embedded Python](#️-getting-started-setting-up-embedded-python)
+    - [Step 1: **Download and Install Embedded Python**](#step-1-download-and-install-embedded-python)
+    - [Step 2: **Verify Installation**](#step-2-verify-installation)
+    - [Step 3: **Run Your Project**](#step-3-run-your-project)
+  - [📚 Ethereal Codices: A Library of Knowledge](#-ethereal-codices-a-library-of-knowledge)
+  - [🤝 Contributing: Join the Symphony of Innovation](#-contributing-join-the-symphony-of-innovation)
+  - [📝 Code of Conduct: A Harmonious Discord](#-code-of-conduct-a-harmonious-discord)
+  - [📜 License: Safeguarding the Ethereal Creation](#-license-safeguarding-the-ethereal-creation)
 
 > ## 🌐 Overview: Crafting a Tapestry of Distinction
 
