@@ -4,15 +4,15 @@ blank_issues_enabled: false
 # Issue Forms
 issue_forms_enabled: true
 issue_template: true
-issue_template_links:
-  - ./bug_report.yml
-  - ./feature_request.yml
+issue_template_files:
+  - ./.github/ISSUE_TEMPLATE/bug_report.yml
+  - ./.github/ISSUE_TEMPLATE/feature_request.yml
 
 # Pull Request Forms
 pull_request_forms_enabled: true
 pull_request_template: true
-pull_request_template_links:
-  - ../PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE.yml
+pull_request_template_files:
+  - ./.github/PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE.yml
 
 # Contact Links
 contact_links_enabled: true
