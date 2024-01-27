@@ -1,24 +1,23 @@
-# Source:
-#
-# This file is used to configure the GitHub Issue Template.
-
 # README
 readme: true
+readme_links:
+  - .github/README.md
+  - docs/issue_template_guide.md
 
 # Blank Issues
 blank_issues_enabled: false
 
 # Issue Forms
 issue_forms_enabled: true
-issue_template: true  # Set to true to enable issue templates
-issue_template_files:  # Specify the path to the issue templates
+issue_template: true
+issue_template_links:
   - .github/ISSUE_TEMPLATE/bug_report.yml
   - .github/ISSUE_TEMPLATE/feature_request.yml
 
 # Pull Request Forms
 pull_request_forms_enabled: true
-pull_request_template: true  # Set to true to enable pull request templates
-pull_request_template_files:  # Specify the path to the pull request templates
+pull_request_template: true
+pull_request_template_links:
   - .github/PULL_REQUEST_TEMPLATE.yml
 
 # Contact Links
