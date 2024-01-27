@@ -159,13 +159,26 @@ Embarking on this enchanting journey requires a meticulous initiation:
 
    Obtain a Discord bot token by creating a new application and bot in the [Discord Developer Portal](https://discord.com/developers/applications).
 
-4. **Craft `config.json`**
+4. **Craft `.env`**
 
-   Craft a `config.json` file, imbuing it with your Discord bot token.
+   Craft a `.env` file, imbuing it with your Discord bot tokens.
 
-   ```json
+   ```python
    {
-       "token": "YOUR_BOT_TOKEN"
+       # Install the python-dotenv library
+       # pip install python-dotenv
+
+       # In your code
+       import os
+       from dotenv import load_dotenv
+
+       # Load environment variables from .env
+       load_dotenv()
+
+       # Access Discord Bot Credentials
+       discord_bot_token = os.getenv("MTE5ODg1MTYyMzI5Mjc3NjQ5OQ.GgPLFW.qrho8V4RXa9Z1xdgQNnaiqiLxCBXiuk6afFo1Q")
+       discord_client_id = os.getenv("1198851623292776499")
+       discord_client_secret = os.getenv("2ZtFoZ8v9-TedpjbLW_DuwbVB7T1RlG3")
    }
    ```
 
