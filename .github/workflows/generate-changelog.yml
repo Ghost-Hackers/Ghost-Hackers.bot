@@ -62,9 +62,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push changes
-        if: github.event_name == 'push' && steps.generate-full-changelog.outputs.changed == 'true'
+        if: env.push == 'true'
         env:
           CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
           CI_TOKEN: ${{ secrets.YOUR_GITHUB_TOKEN }}
         run: |
+          git pull origin master --rebase
           git push "https://$CI_USER:$CI_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD:master
