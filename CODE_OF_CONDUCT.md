@@ -1,4 +1,15 @@
-> # Code of Conduct
+> # <p align="center">Code of Conduct</p>
+
+> ## Table of Contents
+
+- [Code of Conduct](#code-of-conduct)
+  - [Table of Contents](#table-of-contents)
+  - [Our Pledge](#our-pledge)
+  - [Our Standards](#our-standards)
+  - [Our Responsibilities](#our-responsibilities)
+  - [Scope](#scope)
+  - [Enforcement](#enforcement)
+  - [Attribution](#attribution)
 
 > ## Our Pledge
 
@@ -8,19 +19,19 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 Examples of behavior that contributes to creating a positive environment include:
 
-- Using welcoming and inclusive language
-- Respecting differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+- [:white_check_mark:] Using welcoming and inclusive language
+- [:white_check_mark:] Respecting differing viewpoints and experiences
+- [:white_check_mark:] Gracefully accepting constructive criticism
+- [:white_check_mark:] Focusing on what is best for the community
+- [:white_check_mark:] Showing empathy towards other community members
 
 Examples of unacceptable behavior by participants include:
 
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
-- Conduct that could reasonably be considered inappropriate in a professional setting
+- [:x:] The use of sexualized language or imagery and unwelcome sexual attention or advances
+- [:x:] Trolling, insulting/derogatory comments, and personal or political attacks
+- [:x:] Public or private harassment
+- [:x:] Publishing others' private information, such as a physical or electronic address, without explicit permission
+- [:x:] Conduct that could reasonably be considered inappropriate in a professional setting
 
 > ## Our Responsibilities
 
@@ -41,3 +52,6 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 > ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.0, available at [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html).
+
+---
+[Back to top](#code-of-conduct)

@@ -11,7 +11,7 @@
 <!--    !! REMEMBER TO UDPATE BADGES !!    -->
 
 <p align="center">
-    <img alt="README Badge" src="https://img.shields.io/badge/README updated on-1/25/2024-gold?style=plastic" />
+    <img alt="README Badge" src="https://img.shields.io/badge/README updated on-1/26/2024-gold?style=plastic" />
     <img alt="Last Updated Badge" src="https://img.shields.io/badge/last updated by-GH👻ST-white?style=plastic" />
     </br>
     <object data="https://img.shields.io/github/v/release/Ghost-Hackers/Ghost-Hackers.bot?include_prereleases&sort=date&display_name=tag&style=plastic&label=latest%20release&color=bright%20green" type="image/svg+xml">
@@ -237,10 +237,13 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 > ## 📜 License: Safeguarding the Ethereal Creation
 
-All Rights Reserved
+**All Rights Reserved** © [Ghost Hackers](https://github.com/Ghost-Hackers)
 
 This project is a private Discord bot, a creation developed for internal use within [Ghost Hackers](https://github.com/Ghost-Hackers). The code and its associated assets are the intellectual property of [Ghost Hackers](https://github.com/Ghost-Hackers). Unauthorized use, reproduction, or distribution is strictly prohibited without explicit permission from [Ghost Hackers](https://github.com/Ghost-Hackers). For more information, please contact [Ghost Hackers](mailto:ghost-hackers@outlook.com).
 
 ```markdown
 This version accentuates the exclusivity and tailored nature of the bot for our esteemed organization.
 ```
+
+---
+[Back to Top](#-codergeist-phantom-an-ethereal-symphony-of-innovation)

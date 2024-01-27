@@ -1,18 +1,30 @@
 > # Contributing Guidelines
 
-Thank you for considering contributing to the [Ghost-Hackers/sph-report-cleanup](https://github.com/Ghost-Hackers/sph-report-cleanup) project! Whether it's reporting a bug, suggesting an enhancement, or actively contributing code, we appreciate your efforts in making this project better.
+Thank you for considering contributing to the [Ghost-Hackers/Ghost-Hackers.bot](https://github.com/Ghost-Hackers/Ghost-Hackers.bot) project! Whether it's reporting a bug, suggesting an enhancement, or actively contributing code, we appreciate your efforts in making this project better.
 
 Before you start contributing, please take a moment to review our [Code of Conduct](CODE_OF_CONDUCT.md) to understand our expectations.
+
+> ## Table of Contents
+
+- [Contributing Guidelines](#contributing-guidelines)
+  - [Table of Contents](#table-of-contents)
+  - [Ways to Contribute](#ways-to-contribute)
+    - [Reporting Bugs](#reporting-bugs)
+    - [Requesting Features](#requesting-features)
+    - [Submitting Changes](#submitting-changes)
+  - [Code Style](#code-style)
+  - [Code Review](#code-review)
+  - [Licensing](#licensing)
 
 > ## Ways to Contribute
 
 ### Reporting Bugs
 
-If you encounter a bug, please open an issue on our [issue tracker](https://github.com/Ghost-Hackers/sph-report-cleanup/issues) and provide detailed information about the bug, including steps to reproduce, your environment, and any other relevant details.
+If you encounter a bug, please open an issue on our [issue tracker](https://github.com/Ghost-Hackers/Ghost-Hackers.bot/issues) and provide detailed information about the bug, including steps to reproduce, your environment, and any other relevant details.
 
 ### Requesting Features
 
-If you have an idea for a new feature or enhancement, open an issue on our [issue tracker](https://github.com/Ghost-Hackers/sph-report-cleanup/issues) to discuss it. We welcome suggestions and feedback from the community.
+If you have an idea for a new feature or enhancement, open an issue on our [issue tracker](https://github.com/Ghost-Hackers/Ghost-Hackers.bot/issues) to discuss it. We welcome suggestions and feedback from the community.
 
 ### Submitting Changes
 
@@ -30,4 +42,7 @@ All contributions go through a code review process. Be open to feedback, and mak
 
 By contributing, you agree that your contributions will be licensed under the [project's license](LICENSE).
 
-Thank you for contributing to [Ghost-Hackers/sph-report-cleanup](https://github.com/Ghost-Hackers/sph-report-cleanup)!
+Thank you for contributing to [Ghost-Hackers/Ghost-Hackers.bot](https://github.com/Ghost-Hackers/Ghost-Hackers.bot)!
+
+---
+[Back to top](#contributing-guidelines)

@@ -1,4 +1,13 @@
-# <p align="center">Ghost-Hackers.bot Security Policy</p>
+> # <p align="center">Ghost-Hackers.bot Security Policy</p>
+
+## Table of Contents
+
+- [Ghost-Hackers.bot Security Policy](#ghost-hackersbot-security-policy)
+  - [Table of Contents](#table-of-contents)
+  - [Versioning](#versioning)
+  - [Supported Versions](#supported-versions)
+  - [Reporting a Vulnerability](#reporting-a-vulnerability)
+  - [Project Updates and Discussions](#project-updates-and-discussions)
 
 ## Versioning
 
