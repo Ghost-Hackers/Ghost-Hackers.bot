@@ -1,5 +1,5 @@
 {
-  "token": "MTE5ODg1MTYyMzI5Mjc3NjQ5OQ.G9AezN.PZHlQHPgnpZAUH5_NGp_lqpdFwAEaXz1t_1ZUE",
+  "token": "${DISCORD_BOT_TOKEN}",
   "prefix": "*",
   "activities": [
       {"name": "Coding Spectrally", "details": "Crafting Digital Spells", "state": "Innovation Realm"},

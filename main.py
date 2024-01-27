@@ -3,26 +3,55 @@ import os
 import datetime
 import platform
 import psutil
+import json
 
 # Third-Party Library Imports
 import discord
 from discord.ext import commands, tasks
-from discord_slash import SlashCommand
+from interactions import Client
+from interactions.models import SlashCommand
 from discord import Game
 from dotenv import load_dotenv
 
 # Internal Imports
-from GhostHackers_Bot import start_bot # Import the start_bot function from GhostHackers_Bot.py
+# Load environment variables from .env
+load_dotenv()
 
-BOT_VERSION = "1.0"
+# Access the token from the environment
+token = os.getenv('DISCORD_BOT_TOKEN')
+
+# Check if the token is available
+if token is None:
+    print("Error: Discord bot token not found. Make sure to set it in the .env file.")
+else:
+    # Open and read config.json
+    with open('config/config.json', 'r') as config_file:
+        config = json.load(config_file)
+
+    # Use your token in your Discord bot setup...
+    bot = commands.Bot(command_prefix='!')
+
+    @bot.event
+    async def on_ready():
+        print(f'Logged in as {bot.user.name} ({bot.user.id})')
+
+    bot.run(token)
+
+# Path: src/GhostHackers_Bot.py
+from src.GhostHackers_Bot import start_bot
+
+BOT_VERSION = "v0.2.0"
 COGS_DIRECTORY = 'cogs'
 CHANNEL_ID = 1102907872809062520
 USER_ID = 597996927375900682
 
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config', 'config.json')
+
 # Initialize bot and slash commands
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix='!', intents=intents)
-slash = SlashCommand(bot, sync_commands=True)
+bot = commands.Bot(command_prefix='*', intents=intents)
+interaction_bot = Client(bot)
+bot_token = os.getenv("DISCORD_BOT_TOKEN")
 
 # Load cogs from the 'cogs' directory
 for filename in os.listdir(COGS_DIRECTORY):
@@ -48,7 +77,6 @@ async def on_ready():
 
     # Get library versions
     discord_version = discord.__version__
-    bot_version = "1.0"  # Replace with current bot version
 
     # Create an embed
     embed = discord.Embed(title="Ghost Hackers Back Online", color=discord.Color.dark_blue())
@@ -70,27 +98,33 @@ async def on_ready():
 
     # Add library versions
     embed.add_field(name="📚 Discord Library Version", value=discord_version, inline=True)
-    embed.add_field(name="🤖 Bot Version", value=bot_version, inline=True)
+    embed.add_field(name="🤖 Bot Version", value=BOT_VERSION, inline=True)
 
     # Add footer
     embed.set_footer(text="May the code guide us through the spectral realms...")
 
     # Send the embed to a specific channel
     channel = bot.get_channel(CHANNEL_ID)
-    
+
     if channel:
         await channel.send(embed=embed)
 
     await bot.change_presence(activity=Game(name="with code"))
 
-# Load environment variables from .env
-load_dotenv()
-
-# Access the Discord Client Secret
-discord_secret = os.getenv("DISCORD_CLIENT_SECRET")
-
-# Start the bot
-start_bot(discord_secret)
-
-# Run the bot
-bot.run('DISCORD_BOT_TOKEN')
+# Interaction handling
+@interaction_bot.event
+async def on_interaction(interaction):
+    if interaction["type"] == 1:  # Ping interactions
+        await interaction.create_response("Pong!")  # Replace with your actual response
+    elif interaction["type"] == 2:  # Slash command interactions
+        command_name = interaction["data"]["name"]
+        command_args = interaction["data"]["options"]
+        await interaction.create_response("Command received!")
+    else:
+        await interaction.create_response("Unknown interaction type received.")
+        
+# Ensure this code is only executed when the script is run directly
+if __name__ == "__main__":
+    load_dotenv()
+    discord_secret = os.getenv("DISCORD_CLIENT_SECRET")
+    start_bot(discord_secret)
