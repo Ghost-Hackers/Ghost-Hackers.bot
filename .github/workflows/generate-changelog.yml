@@ -54,16 +54,15 @@ jobs:
           githubSite: https://github.com/Ghost-Hackers/Ghost-Hackers.bot
 
       - name: Commit files
-        env:
-          CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
-          CI_EMAIL: ${{ secrets.YOUR_GITHUB_EMAIL }}
         run: |
-          git config --local user.email "$CI_EMAIL"
-          git config --local user.name "$CI_USER"
-          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' --author="$CI_USER $CI_EMAIL" && echo "push=true" >> $GITHUB_ENV || echo "No changes to CHANGELOG.md"
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo "push=true" >> $GITHUB_ENV || echo "No changes to CHANGELOG.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push changes
-        if: env.push == 'true'
+        if: github.event_name == 'push' && steps.generate-full-changelog.outputs.changed == 'true'
         env:
           CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
           CI_TOKEN: ${{ secrets.YOUR_GITHUB_TOKEN }}
