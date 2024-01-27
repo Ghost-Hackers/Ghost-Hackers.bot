@@ -1,6 +1,6 @@
 > # <p align="center">[Ghost-Hackers.bot](https://github.com/Ghost-Hackers/Ghost-Hackers.bot)</p>
 
-Welcome to [[Ghost-Hackers.bot](https://github.com/Ghost-Hackers/Ghost-Hackers.bot)](https://github.com/Ghost-Hackers/[Ghost-Hackers.bot](https://github.com/Ghost-Hackers/Ghost-Hackers.bot)), the spectral haven where digital phantoms converge to weave an intricate tapestry of innovation across the ethereal landscapes of cyberspace.
+Welcome to [Ghost-Hackers.bot](https://github.com/Ghost-Hackers/Ghost-Hackers.bot), the spectral haven where digital phantoms converge to weave an intricate tapestry of innovation across the ethereal landscapes of cyberspace.
 
 > ## Table of Contents
 
